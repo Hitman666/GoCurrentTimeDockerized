@@ -9,7 +9,7 @@ FROM golang:onbuild
 EXPOSE 8080
 ```
 
-## Go <code>
+## Go code
 ```
 package main
 
@@ -35,7 +35,7 @@ Only important thing to note here is that we're listening on port 8080, which we
 
 ## Steps on how to make this yourself
 
-### Go <code>
+### Go code
 + Create the Go app (for testing purposes, you may use the same exact code)
 + Test it locally with `go run curtime.go`
 + Open your browser and go to [http://localhost:8080](http://localhost:8080)
